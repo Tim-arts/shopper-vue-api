@@ -4,7 +4,7 @@ import { Document } from 'mongoose';
 @Schema()
 export class Product extends Document {
   @Prop()
-  id: string;
+  _id: string;
 
   @Prop()
   name: string;
